@@ -1,0 +1,39 @@
+// popracowac nad responsywnoscia jednostki vw dać bo nie skaluje przy wiekszych rozdzielczosciach
+
+.sidebar {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    top: 30%;
+    right: -50vw;
+    height: 9vw;
+    width: 60vw;
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    z-index: 2;
+    overflow: hidden;
+    transition: right 0.5s;
+    
+}
+
+.sidebar img {
+    height: 9vw;
+    padding-left: 1vw;
+    padding-right: 2vw;
+}
+
+.sidebar img:hover {
+    transform: scale(1.2);
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 9vw;
+    color: black;
+    padding-left: 2vw;
+  }
+  
+  .sidebar a:hover {
+    color: grey;
+    transform: scale(1.1);
+  }

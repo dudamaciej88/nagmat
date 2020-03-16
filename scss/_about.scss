@@ -1,0 +1,37 @@
+#about:before {
+    content: "";
+    display: block;
+    height: 50px;
+    margin: -30px 0 0;
+ }
+
+
+.about {
+.frame {
+  margin: 30px auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+  height: 60px;
+  
+
+  h2 {
+    font-family: Cinzel, Times, serif;
+      text-align: center;
+      font-size: 24px;
+      margin: 18px auto;
+      align-self: center;
+  }
+}
+
+p {
+    text-align: center;
+    margin: 6vw 12vw;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+}
+
+
