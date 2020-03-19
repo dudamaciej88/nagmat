@@ -1,3 +1,5 @@
+
+
 document.getElementById("sidebar").addEventListener('mouseover', mouseOver);
 document.getElementById("sidebar").addEventListener('mouseout', mouseOut);
 
@@ -51,8 +53,10 @@ function mouseOver() {
   }
   
   function mouseOut() {
-    document.getElementById("sidebar").style.right = "-52vw";
-  }
+    
+     document.getElementById("sidebar").style.right = "-35vw";
+    }
+  
 
 function openModal() {
   document.getElementById("myModal").style.display = "block";

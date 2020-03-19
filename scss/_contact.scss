@@ -19,6 +19,7 @@
       font-size: 24px;
       margin: 18px auto;
       align-self: center;
+      font-weight: bold;
     }
   }
 }
@@ -39,8 +40,11 @@
     li {
       img {
         width: 4vw;
+        max-width: 40px;
+        
         height: 4vw;
-        padding: 0px 2vw;
+        max-height: 40px;
+        padding: 0px 1vw;
       }
       a {
         text-decoration: none;
@@ -60,5 +64,8 @@
   }
   .contact-displayer {
     width: 50%;
+    li {
+      font-size: 24px;
+    }
   }
 }

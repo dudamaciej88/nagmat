@@ -19,6 +19,7 @@
       font-size: 24px;
       margin: 18px auto;
       align-self: center;
+      font-weight: bold;
     }
   }
   .gallery-displayer {
@@ -137,8 +138,10 @@
     .img-container {
       img {
         width: 15vw;
+        max-width: 210px;
         height: 15vw;
-        padding: 1vw 1vw;
+        max-height: 210px;
+        padding: 10px 10px;
       }
     }
     .img-container:hover {
