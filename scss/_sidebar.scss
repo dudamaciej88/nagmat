@@ -1,43 +1,46 @@
 // popracowac nad responsywnoscia jednostki vw dać bo nie skaluje przy wiekszych rozdzielczosciach
 
 .sidebar {
-    background-color: white;
-    position: fixed;
-    display: flex;
-    top: 30%;
-    right: -35vw;
-    height: 6vw;
-    width: 40vw;
-    border: 1px solid #f4f4f4;
-    border-radius: 5px;
-    z-index: 2;
-    overflow: hidden;
-    transition: right 0.5s;
-    
+  background-color: white;
+  position: fixed;
+  display: flex;
+  top: 30%;
+  right: -35vw;
+  height: 6vw;
+  width: 40vw;
+  border: 1px solid #f4f4f4;
+  border-radius: 5px;
+  z-index: 2;
+  overflow: hidden;
+  transition: right 0.5s;
 }
 
 .sidebar img {
-    height: 4vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    padding-left: 1vw;
-    padding-right: 2vw;
+  height: 4vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 1vw;
+  padding-right: 2vw;
 }
 
 .sidebar img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .sidebar a {
-    text-decoration: none;
-    font-size: 6vw;
-    color: black;
-    padding-left: 2vw;
-  }
-  
-  .sidebar a:hover {
-    color: grey;
-    transform: scale(1.1);
-  }
+  text-decoration: none;
+  font-size: 6vw;
+  color: black;
+  padding-left: 2vw;
+}
 
-  
+.sidebar a:hover {
+  color: grey;
+  transform: scale(1.1);
+}
+
+@media (min-width: 1200px) {
+  .sidebar {
+    display: none;
+  }
+}
